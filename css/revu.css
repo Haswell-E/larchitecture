@@ -1,0 +1,307 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+        /*----main-------*/
+.filtre_1{
+    width: 100%;
+    background-color: brown;
+    float: left;
+    margin-top: 100px;
+}
+#filtre_2{
+    width: 100%;
+    background-image: url("../img-content/bg_revue.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.opacity{
+    z-index: 1;
+    width: 100%;
+    height:100%;
+    background-color: #b1b1b1;
+    opacity: 65%;
+}
+.sous_filtre{
+    float: left;
+    width: 80%;
+    margin-left: 200px;
+}
+
+.haut h1{
+    font-size: 25px;
+    float: left;
+    margin-left: 100px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    background-color: deepskyblue;
+    width:20%;
+    height: 50px;
+    text-align: center;
+}
+
+.tri a{
+    font-size: 25px;
+    float: right;
+    margin-right: 100px;
+    color: deepskyblue;
+    font-family: sans-serif;
+    margin-top: 20px;
+    width:20%;
+    height: 50px;
+    text-decoration: none;
+}
+
+
+
+article{
+    margin-left:50px;
+    background-color: #cdd6dd;
+    width: 200px;
+    height:350px;
+    margin-top: 100px;
+    float: left;
+}
+
+figure{
+    position: relative;
+}
+
+.filtre_img{
+    width: 200px;
+    height:300px;
+    opacity: 1;
+}
+
+
+figure:hover img{
+    opacity: 0.5;
+}
+
+figure:hover h3{
+    display: block;
+}
+
+figcaption{
+    margin-left: auto;
+    position: absolute;
+    top:0;
+    width: 200px;
+    height:300px;
+}
+
+figcaption h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: Bebas, sans-serif;
+    font-weight: 900;
+    margin-top: -40px;
+    width: 100%;
+}
+
+figcaption h2:after{
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    top:5px;
+}
+
+figcaption p{
+    font-size: 16px;
+    font-family: Bebas, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    top:320px;
+    left:20%;
+    color: black;
+    z-index: 50;
+}
+
+figcaption h3{
+    z-index: 3;
+    font-size: 18px;
+    margin-top: 280px;
+    margin-left: 10px;
+    font-family: "Bebas Tam ", sans-serif;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    width: 90%;
+    display: none;
+}
+
+
+#filtre_2 h2{
+    font-size: 25px;
+    float: right;
+    margin-right: 100px;
+    background-color: darkslategrey;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 20px;
+    width:20%;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+ul.page{
+    list-style-type: none;
+    list-style-position:inside;
+}
+ul.page li{
+    display: inline-block;
+    width: 50px;
+    padding-right: 20px;
+}
+ul.page li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.pagination{
+    width:500px;
+    height:20px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+h3.france {
+    padding-bottom: 30px;
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+}
+.collectivite{
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.international{
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.region li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 70px;
+}
+.region{
+    margin-bottom:40px ;
+}
+
+.collectivite li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+.international li a{
+    color: #fff;
+    padding-bottom: 100px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+h3.inte{
+    padding-bottom: 30px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 270px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+h3.dom{
+    padding-bottom: 30px;
+    float: left;
+    margin-top: 200px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.tri_par_region{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
